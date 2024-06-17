@@ -1,0 +1,47 @@
+[33mcommit 441a65f0fb5a8662976f1ea23d6a93179acac578[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: cc165c8 4cccd33
+Author: harshil3134 <98446850+harshil3134@users.noreply.github.com>
+Date:   Mon Jun 17 23:48:17 2024 +0530
+
+    Merge pull request #2 from harshil3134/nav
+    
+    added Navbar and global file
+
+[33mcommit 4cccd336498eb98a20e266de99553cad39093493[m[33m ([m[1;31morigin/nav[m[33m, [m[1;32mnav[m[33m)[m
+Author: harshil <harshilpatel2223@gmail.com>
+Date:   Mon Jun 17 23:42:00 2024 +0530
+
+    added navigation bar
+
+[33mcommit cf372bcd1231872fb71966b2f1b653ff763f325a[m
+Author: harshil <harshilpatel2223@gmail.com>
+Date:   Mon Jun 17 23:40:31 2024 +0530
+
+    added navigation bar
+
+[33mcommit cc165c83f4d0779af0c8884fa3669627d53550d2[m
+Author: harshil3134 <98446850+harshil3134@users.noreply.github.com>
+Date:   Thu May 30 23:44:52 2024 +0530
+
+    Update readme.md
+
+[33mcommit 72fc70e1ad4f10fe40b3ea756240884dff73aa3a[m
+Merge: c597d07 da2af02
+Author: harshil3134 <98446850+harshil3134@users.noreply.github.com>
+Date:   Thu May 30 23:42:47 2024 +0530
+
+    Merge pull request #1 from harshil3134/readme
+    
+    adding gitignore
+
+[33mcommit da2af02046c31543e7e60e2fa3502d04975dbc6a[m[33m ([m[1;31morigin/readme[m[33m, [m[1;32mreadme[m[33m)[m
+Author: harshil <harshilpatel2223@gmail.com>
+Date:   Thu May 30 23:41:43 2024 +0530
+
+    adding gitignore
+
+[33mcommit c597d079a032d008c8ade9d4bc7014d858a4d2ec[m
+Author: harshil <harshilpatel2223@gmail.com>
+Date:   Thu May 30 23:28:43 2024 +0530
+
+    adding readme
