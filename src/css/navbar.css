@@ -18,8 +18,11 @@ width: 100%;
 .logo{
     padding:0px;
     margin:0px;
-    margin-top:25px;
-    margin-right:80px;
+    margin-top:19px;
+
+    position:absolute;
+    top:0px;
+    left:18px;
    /* background-color:#fff; */
 
 }
@@ -33,10 +36,15 @@ width: 100%;
 .optioncontainer{
 /* background-color:#acacac; */
 display:flex;
+/* position:absolute;
+
+left:0px; */
+transform:translate(-200px,0px);
 /* height:20vh; */
 }
 .optioncontainer .element{
-    margin-right:20px;
+    /* margin-right:20px; */
+    margin-right:30px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -56,13 +64,17 @@ display:flex;
     color:#fffafa
 }
 .input-control{
-margin-top:10px;
+margin-top:-20px;
+position:absolute;
+right:260px;
+/* background-color:#acacac; */
+
 
 }
 
 .input-control input{
     height:6vh;
-    width:19vw;
+    width:23vw;
     border-radius:25px;
     padding-left:10px;
     outline:none;
@@ -75,15 +87,16 @@ margin-top:10px;
 .input-control button{
     height:6vh;
     width:6vw;
-    border:1px solid;
-    border-color:#1f2326;
+    border:none;
+   
     border-radius:20px;
     position : relative;
     right : 60.5px;
     top : 0px;
  
     outline:none;
-    color:#1f2326;
+    background-color:#ffe270;
+    color:#ff6c26;
     cursor: pointer;
 
 
