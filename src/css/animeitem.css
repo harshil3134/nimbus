@@ -1,0 +1,201 @@
+*{
+   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1f2326;
+}
+
+.anime-item-container{
+    margin-top:50px;
+}
+
+.start-container{
+    background-image: url(../assets/item_bg.jpg);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-attachment: fixed; 
+    display:flex;
+    margin:60px 40px 0px 40px;
+    border-radius: 20px;
+    height: 75vh;
+    position: relative;
+   
+}
+.start-container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0,0,0.0); */
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.2));
+    border-radius: 20px;    
+    backdrop-filter: blur(6px); /* Add this line to make it blurier */
+
+}
+
+.img-container{
+    /* background-color: #ff6c26; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 250px;
+    height: 50vh;
+    left: 190px;
+    top: 50px;
+    /* flex:25%; */
+    flex:25%;
+    }
+
+.img-container img{
+
+    border-radius: 10px;
+    height: 50vh;
+    width: 250px;
+    
+}
+.anime-det{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:start;
+    transform:translate(60px,5px);
+    margin-top:10px;
+
+}
+.det1{
+    border-radius: 4px 0px 0px 4px;
+    margin-right:1px;
+padding:4px;
+font-size:0.9rem;
+background-color:#D1E8E2;
+color:black;
+}
+.det2{
+    /* border-radius: 0px 4px 4px 0px; */
+    padding:4px;
+    font-size:0.9rem;
+    background-color:#D1E8E2;
+    margin-right:1px;
+    color:black;
+}
+.det3{
+    border-radius: 0px 4px 4px 0px;
+    font-size:0.9rem;
+    padding:4px;
+   
+    background-color:#D1E8E2;
+    color:black;
+}
+.det3 svg{
+    padding-top:3px;
+    height:2.2vh;;
+}
+
+.desc{
+    position:relative;
+ 
+    flex:50%;
+ /* background-color:rgba(0,0,0,0); */
+     /* background-color:white; */
+}
+.title{
+    
+    margin-top:30px;
+    background-color:rgba(0,0,0,0);
+    margin-right:100px;
+    /* background-color:white; */
+}
+.title span{ 
+    position:relative;
+    padding:5px 10px 5px 10px;
+    font-size:7vh;    
+    width:100%;
+    background-color:rgba(0,0,0,0);
+    color:#1f2326;
+
+}
+
+
+.description{
+    padding:20px; 
+    color:#1f2326;
+    /* backdrop-filter: blur(10px); */
+max-width:800px;
+    background-image:linear-gradient(to right,rgba(31, 35, 38,0.5),rgba(31, 35, 38,0.6));
+    color:#DBE9F4;
+    font-size:1.1rem;
+    border-radius: 20px;
+    position:relative;
+    margin-top:30px;
+}
+.description p{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background:linear-gradient(135,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(20px);    
+    border-radius: 20px;
+    border:2px solid rgba(255,255,255,0.18); 
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 38, 0.37 ); */
+
+}
+.description p{
+    color:#fff;
+    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 120px #fff; */
+}
+.glass{
+    background:linear-gradient(135,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    /* backdrop-filter: blur(10px);     */
+    border-radius: 20px;
+    border:1px solid rgba(255,255,255,0.18); 
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 38, 0.37 );
+}
+
+
+.trailer{
+    width:100%;
+    flex:50%;
+    padding-top:60px;
+    padding-left:130px;
+   /* text-align:center; */
+    /* background-color:white; */
+
+}
+.trailer iframe{
+    height:40vh;
+    width:480px;
+    border-radius:10px;
+    border:2px solid;
+}
+
+.scontainer{
+    display:flex;
+
+    border-radius: 10px;
+    border: 3px solid #ff6c26;
+  
+    /* flex-wrap:wrap;
+    justify-content:space-around; */
+    margin:30px;
+    /* background-color: #ff6c26; */
+}
+
+.maize_container{
+    flex:50%;
+    /* background-color: red; */
+
+}
+
+.character_container{
+    margin:160px;    
+    /* margin-right:80px; */
+    /* width:100%; */
+    border-radius: 10px;
+    border: 3px solid #ff6c26;
+    /* background-color: blue; */
+}

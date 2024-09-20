@@ -1,0 +1,30 @@
+
+
+.more_info{
+    
+    border-radius: 10px;
+    color: #F5F5F5;
+    padding: 30px;
+}
+.more_info p{
+padding-bottom: 7px;
+}
+.more_info h4{
+    font-size: 1.5rem;
+    color: #F5F5F5;
+    margin-bottom: 15px;
+}
+.more_info_title{
+    padding-right: 10px;
+}
+
+.genre{
+    padding:4px 9px;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: #F5F5F5;
+    color: #1f2326;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
