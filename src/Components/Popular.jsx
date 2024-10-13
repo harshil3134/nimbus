@@ -25,9 +25,17 @@ function Popular({rendered}) {
     }
 
     const checkrender=()=>{
-       
- return <Item data={popularAnime}></Item>    
+       if(!isSearch && rendered === 'popular')
+       {
+        return <Item data={popularAnime}></Item>    
+       }
+       else{
+        return <Item data={searchResults}></Item>    
+       }
+
     }
+
+
     return (
         <>
             <div className="popular-anime">

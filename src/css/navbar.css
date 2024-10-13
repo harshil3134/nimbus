@@ -66,7 +66,7 @@ transform:translate(-200px,0px);
 .input-control{
 margin-top:-20px;
 position:absolute;
-right:260px;
+right:300px;
 /* background-color:#acacac; */
 
 
@@ -75,7 +75,7 @@ right:260px;
 .input-control input{
     height:6vh;
     width:23vw;
-    border-radius:25px;
+    border-radius:5px;
     padding-left:10px;
     outline:none;
     border:none;
@@ -89,7 +89,7 @@ right:260px;
     width:6vw;
     border:none;
    
-    border-radius:20px;
+    border-radius:6px;
     position : relative;
     right : 60.5px;
     top : 0px;
@@ -101,4 +101,23 @@ right:260px;
 
 
 
+}
+
+.watchlist{
+
+/* display:flex; */
+transform:translate(400px,6px);
+}
+
+.watchlist svg{
+    height:4vh;
+    width:4vw;
+    color:#ff6c26;
+
+}
+
+.watchlist .name{
+  text-align:right;
+ transform:translate(-10px,-5px);
+ /* line-height: 4.5vh; */
 }

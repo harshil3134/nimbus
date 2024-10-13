@@ -6,6 +6,7 @@ import { useGlobalContext} from '../context/global'
 import Popular from './Popular'
 import Airing from './Airing'
 import Upcoming from './Upcoming'
+import Watchlist from './Watchlist'
 
 function Navbar() {
   const {handleSubmit, 
@@ -27,6 +28,8 @@ function Navbar() {
             return <Airing rendered={rendered} />
         case 'upcoming':
             return <Upcoming rendered={rendered} />
+        case 'watchlist':
+            return <Watchlist rendered={rendered} />
         default:
             return <Popular rendered={rendered} />
     }
@@ -65,13 +68,21 @@ function Navbar() {
             </div>
         
     </div>
-    <form action="" className="search-form" >
+    <form action="" className="search-form" onSubmit={handleSubmit} >
                         <div className="input-control">
-                            <input type="text" placeholder="Search Anime"   />
+                            <input type="text" placeholder="Search Anime"  value={search} onChange={handleChange}/>
                             <button type="submit">Search</button>
                         </div>
     </form>
-  
+  <div className="watchlist" onClick={()=>{setRendered('watchlist');}}>
+     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16">
+        <path d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
+    </svg>
+    <div className='name'>
+Watchlist
+</div>
+    
+  </div>
    
   </nav>
 
