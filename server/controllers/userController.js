@@ -2,6 +2,8 @@ import { catchAsyncErrors } from "../middleware/catchAsyncErrors.js";
 import ErrorHandler from "../middleware/error.js";
 import { User } from "../model/user.model.js";
 import { sendToken } from "../utils/jwtToken.js";
+import { createWatchlist } from "./watchlistController.js";
+
 
 
 
@@ -32,7 +34,13 @@ export const register=catchAsyncErrors(async (req,res,next)=>{
              profilePicture
 
         });
-        sendToken(user, 201, res, "User Registered!");
+
+         await createWatchlist(user);
+      //  sendToken(user, 201, res, "User Registered!");
+        res.status(200).json({
+          success:true,
+          message:"user created "
+        })
 });
 
 export const login=catchAsyncErrors(async(req,res,next)=>{

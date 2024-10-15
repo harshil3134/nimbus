@@ -1,4 +1,3 @@
-import { faTruckMedical } from "@fortawesome/free-solid-svg-icons";
 import mongoose  from "mongoose";
 import bcrypt from "bcrypt";
 import jwt from 'jsonwebtoken'
